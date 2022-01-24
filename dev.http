@@ -1,0 +1,9 @@
+## Quick Dev
+
+GET   http://127.0.0.1:8888/trigger_click
+Content-Type: application/json
+
+{
+    "x":40,
+    "y":40
+}

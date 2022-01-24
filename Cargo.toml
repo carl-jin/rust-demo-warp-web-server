@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "web_server"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_json = "1.0"
+tokio = {version = "1.15.0", features = ["full"]}
+warp = "0.3.2"
+anyhow = "1.0.53"
+mouse-rs = "0.4"
